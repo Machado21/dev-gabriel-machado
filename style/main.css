@@ -1,0 +1,22 @@
+:root {
+  --color-blue-white: #dff6ff;
+  --color-blue-light: #47b5ff;
+  --color-blue-green: #256d85;
+  --color-blue-marine: #06283d;
+}
+body {
+  display: grid;
+  justify-content: center;
+
+  font-family: "Roboto", sans-serif;
+  color: var(--color-blue-marine);
+
+  background-color: var(--color-blue-white);
+}
+.calc-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: .5rem;
+
+  margin: .5rem auto;
+}
