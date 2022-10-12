@@ -7,6 +7,7 @@
 body {
   display: grid;
   justify-content: center;
+  grid-template-rows: 7vh 86vh 7vh;
 
   font-family: "Roboto", sans-serif;
   color: var(--color-blue-marine);
@@ -16,9 +17,14 @@ body {
 .title {
   font-size: 1.5rem;
   font-weight: 500;
+
+  margin: 0.2rem;
 }
 .calc {
   border: 2px solid var(--color-blue-marine);
+  box-shadow: 3px 5px;
+
+  margin: 0.4rem;
 }
 .operations {
   margin: 1rem 0.5rem;
