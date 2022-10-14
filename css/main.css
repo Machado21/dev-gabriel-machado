@@ -18,12 +18,13 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
 
-  margin: 0.2rem;
+  margin: 0.3rem;
 }
 .calc {
   border: 2px solid var(--color-blue-marine);
   box-shadow: 3px 5px;
 
+  padding: 0.4rem;
   margin: 0.4rem;
 }
 .operations {
