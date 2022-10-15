@@ -28,35 +28,35 @@
     </header>
 
     <main>
-        
+
         <section class="div_calculator">
             <h2 class="sub_title">Calculadora</h2>
             <p class="text"></p>
             <div class="operations">
                 <div class="div_interacions">
                     <input type="number" class="number_one"></input>
-                    <label class="lab_operador">+</label>
+                    <label class="lab_operator">+</label>
                     <input type="number" class="number_two"></input>
                     <label class="lab_equal">=</label>
-                    <label class="lab_resolt">0</label>
+                    <label class="lab_result">0</label>
                 </div>
                 <div class="calc-buttons">
                     <button class="bt_01">1</button>
                     <button class="bt_02">2</button>
                     <button class="bt_03">3</button>
-                    <button class="bt_*">*</button>
+                    <button class="bt_divi" onclick="operator('/')">/</button>
                     <button class="bt_04">4</button>
                     <button class="bt_05">5</button>
                     <button class="bt_06">6</button>
-                    <button class="bt_bless">-</button>
+                    <button class="bt_mult" onclick="operator('*')">*</button>
                     <button class="bt_07">7</button>
                     <button class="bt_08">8</button>
                     <button class="bt_09">9</button>
-                    <button class="bt_pluss">+</button>
-                    <button class="bt_negation">+/-</button>
-                    <button class="bt_00">0</button>
+                    <button class="bt_bless" onclick="operator('-')">-</button>
                     <button class="bt_comma">,</button>
-                    <button class="bt_equal" onclick="sum()">=</button>
+                    <button class="bt_00">0</button>
+                    <button class="bt_equal" onclick="result()">=</button>
+                    <button class="bt_pluss" onclick="operator('+')">+</button>
                 </div>
             </div>
         </section>
