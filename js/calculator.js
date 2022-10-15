@@ -7,6 +7,7 @@ function sum(params) {
   var n2 = parseFloat(number_two.value);
   var r = n1 + n2;
 
-  alert(`${r}`);
+  alert(`A soma ta certa ${r} só falta atualizar o DOM`);
+  
   result.innerHTML = `${r}`;
 }
