@@ -1,5 +1,40 @@
-.header{
-    display: flex;
-    justify-content: space-around;
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 1vh;
+  margin: 1rem;
+  padding: 0.8rem;
+}
 
+.bt_perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Fredericka the Great", cursive;
+  text-align: center;
+
+  height: 2.5rem;
+  width: 2.5rem;
+
+  background-color: var(--color-blue-green);
+  color: var(--color-blue-white);
+  box-shadow: 3px 3px 7px var(--color-blue-marine);
+
+  border-radius: 50%;
+}
+
+.bt_projeto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 1.5rem;
+  width: 5rem;
+
+  box-shadow: 2px 2px 4px var(--color-blue-marine);
+
+  border-radius: 7px;
+  border: 1px solid;
 }

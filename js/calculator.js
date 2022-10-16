@@ -1,27 +1,27 @@
-function operator(oper) {
+//Change de operator.
+function operator(params) {
 
   const operator = document.querySelector(".lab_operator");
 
-  console.log(oper);
-
-  switch (oper) {
+  switch (params) {
     case "+":
       operator.innerHTML = "+";
       break;
+
     case "-":
       operator.innerHTML = "-";
       break;
+
     case "*":
       operator.innerHTML = "*";
       break;
+
     case "/":
       operator.innerHTML = "/";
-
       break;
 
     default:
       operator.innerHTML = ":x";
-
       break;
   }
 }
