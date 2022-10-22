@@ -23,6 +23,13 @@
   box-shadow: 3px 3px 7px var(--color-blue-marine);
 
   border-radius: 50%;
+
+  transition: transform 0.5s;
+}
+
+.bt_perfil:hover {
+  color: #ffffff;
+  transform: scale(1.2);
 }
 
 .bt_projeto {
@@ -37,4 +44,12 @@
 
   border-radius: 7px;
   border: 1px solid;
+
+  transition: transform 0.5s;
+}
+
+.bt_projeto:hover,
+.bt_projeto:focus {
+  transform: scale(1.1);
+
 }
