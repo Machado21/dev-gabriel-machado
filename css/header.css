@@ -24,6 +24,8 @@
 
   border-radius: 50%;
 
+  cursor: pointer;
+
   transition: transform 0.5s;
 }
 
@@ -46,6 +48,8 @@
   border: 1px solid;
 
   transition: transform 0.5s;
+
+  cursor: pointer;
 }
 
 .bt_projeto:hover,
