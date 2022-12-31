@@ -44,6 +44,7 @@ body {
   align-items: center;
 
   padding: 1rem .5rem;
+  border-radius: 5px 0 0 5px;
 
   background-color: var(--color-04);
   box-shadow: 3px 0px 10px var(--color-05);
