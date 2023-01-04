@@ -28,7 +28,16 @@ h1 {
 h2 {
   font-size: large;
   font-weight: bold;
+
+  margin: 0.7rem;
 }
+
+li {
+  margin: 0 0.7rem 0.3rem;
+
+
+}
+
 .title {
   font-size: 1.5rem;
   font-weight: 500;
