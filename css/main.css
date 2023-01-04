@@ -16,7 +16,19 @@ body {
 
   background-color: var(--color-02);
 }
+h1 {
+  font-size: larger;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-05);
+  font-weight: bold;
 
+  margin: 0.7rem 0.3rem;
+}
+
+h2 {
+  font-size: large;
+  font-weight: bold;
+}
 .title {
   font-size: 1.5rem;
   font-weight: 500;
@@ -24,7 +36,7 @@ body {
   margin: 0.3rem;
 }
 
-.main{
+.main {
   display: grid;
   grid-template-columns: 2fr 8fr;
 
@@ -38,41 +50,7 @@ body {
   background-color: var(--color-01);
 }
 
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  padding: 1rem .5rem;
-  border-radius: 5px 0 0 5px;
-
-  background-color: var(--color-04);
-  box-shadow: 2px 0px 2px var(--color-05);
-  border-right: 1px solid var(--color-05);
-
-}
-
-.div_foto_perfil {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  height: 10rem;
-  width: 10rem;
-
-  padding: .5rem .5rem;
-  border-radius: 50%;
-  background-color: var(--color-03);
-}
-
-.div_foto_perfil img {
-  height: 100%;
-  width: 100%;
-
-  border-radius: 50%;
-}
-
-.sec_perfil{
+.sec_perfil {
   display: flex;
   flex-direction: column;
 
