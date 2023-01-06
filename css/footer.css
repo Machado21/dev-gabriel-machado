@@ -1,14 +1,14 @@
-.footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  margin: 0.4rem auto;
 
-    margin: .3rem auto;
+  width: 90vw;
 
-    width: 90vw;
+  border-radius: 5px;
 
-    border-radius: 5px ;
-
-    background-color: var(--color-01);
+  background-color: var(--color-01);
 }
