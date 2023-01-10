@@ -12,9 +12,19 @@
 }
 
 .sidebar h1 {
+  color: var(--color-01);
+  text-align: center;
+}
 
-    color: var(--color-01);
-    text-align: center;
+.sidebar h2 {
+  color: var(--color-01);
+}
+
+.sidebar li,
+.sidebar li a {
+  color: var(--color-01);
+  list-style: inside;
+  margin: 1rem ;
 }
 
 .div_foto_perfil {
