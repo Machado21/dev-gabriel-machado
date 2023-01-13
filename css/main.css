@@ -40,7 +40,7 @@ li {
 
 .main {
   display: grid;
-  grid-template-columns: 2fr 8fr;
+  grid-template-columns: 3fr 7fr;
 
   min-height: 85vh;  
   width: 90vw;

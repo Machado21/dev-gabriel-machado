@@ -1,11 +1,20 @@
 .sec_perfil {
-    display: flex;
-    flex-direction: column;
-  
-    padding: 1rem;
-  }
+  display: flex;
+  flex-direction: column;
 
-  .sec_perfil li {
-    list-style: inside;
-    
-  }
+  padding: 1rem;
+}
+
+.sec_perfil li {
+  list-style: disc;
+  margin: 1rem 5rem;
+}
+
+.sec_perfil h2 {
+    margin: 1rem 3rem;
+}
+.p_resumo {
+  text-align: justify;
+  line-height: 1.3rem;
+  margin: 1rem 5rem;
+}
