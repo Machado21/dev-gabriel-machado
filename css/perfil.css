@@ -1,0 +1,11 @@
+.sec_perfil {
+    display: flex;
+    flex-direction: column;
+  
+    padding: 1rem;
+  }
+
+  .sec_perfil li {
+    list-style: inside;
+    
+  }
